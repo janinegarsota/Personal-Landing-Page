@@ -1,0 +1,520 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    .about-containers {
+        flex-wrap: wrap;
+    }
+
+    #about {
+      padding: 20px;
+    }
+
+    #testimonials {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+@media screen and (max-width: 1200px) {
+  .contact-info-upper-container{
+    width: 80%;
+  }
+
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+  }
+
+ .experience-details-container {
+    margin-top: 2rem;
+  }
+
+  #profile, .section-container {
+    display: block;
+  }
+
+  section, .section-container{
+    height: fit-content;
+  }
+
+  section {
+    margin: 0 5%;
+  }
+
+  .section-container {
+    height: 100%;
+    max-height: 140vh;
+  }
+
+  .section_pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto;
+  }
+
+  .about-details-container {
+    margin-top: 1.5rem;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .about-containers {
+    margin-top: 0;
+  }
+
+  .skills .container {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .skills .container .row {
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    padding: 2rem 0.2rem 2rem 0.2rem;
+    gap: 1rem;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skills .container {
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  .section-container, .pfp{
+    margin: 20px 0 0 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .details-container {
+    margin-top: 20px;
+  }
+
+  .section_text {
+    align-items: center;
+    justify-content: center;
+    margin-top: 25%;
+  }
+
+  .institutions-sub-title {
+    margin-bottom: 50px;
+  }
+}
+
+
+@media screen and (max-height: 856px){
+  #projects {
+    max-height: 380vh;
+  }
+  
+  #about {
+    padding: 40px;
+  }
+
+  .grid-cont {
+    gap: 3.7rem;
+  }
+
+}
+
+@media screen and (max-width: 720px){
+  .section_text .title {
+    font-size: 4rem;
+  }
+
+  #about2 {
+    margin-bottom: 100px;
+    max-height: 500vh;
+  }
+
+  #about {
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 100%;
+    max-height: 1200px;
+  }
+
+  .section-container {
+    height: 100%;
+    max-height: 1200px;
+  }
+
+  .awards-details-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .details {
+    margin-bottom: 20px;
+  }
+
+  .details img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 80px;
+  }
+
+  .container-exp {
+    margin-bottom: 40px;
+  }
+
+  #about {
+    height: 100%;
+    max-height: 400vh;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .details {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .details p {
+    margin-bottom: 15px;
+  }
+
+  .experience-details-container2 {
+    margin-top: 10px;
+  }
+  .section-container {
+    height: 100%;
+    max-height: 1200px;
+  }
+
+  .about-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+
+  .school {
+    width: 100%;
+    max-width: 370px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .school-logo {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .school-details {
+    text-align: center;
+    margin-top: 0px;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .school-details h3 {
+    font-size: 1rem;
+  }
+
+  .school-details p {
+    font-size: 0.875rem;
+  }
+
+  .services-container2 {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .details-container4{
+    gap: 2rem;
+    width: 100%;
+    max-width: 400px;
+  }
+
+@media screen and (max-height: 600px){
+  body {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section_text .title {
+    font-size: 10px;
+  }
+
+  .about-details-container {
+    padding: 0;
+    margin: 0;
+    margin-top: 1.5rem;
+    text-align: center;
+    
+  }
+
+  .container-exp {
+    margin-top: 0px;
+  }
+
+  .section-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .section_pic-container, .about-details-container {
+    width: 100%;
+  }
+
+  .section_pic-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  #about2 {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+  }
+
+  .section_text_p2 {
+    padding: 10px;
+  }
+
+  .section_text {
+    align-items: center;
+    justify-content: center;
+    margin-top: 25%;
+  }
+
+  #contact, footer {
+    height: 40vh;
+  }
+
+  #education {
+    padding: 20px;
+  }
+
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+
+  article {
+    font-size: 1rem;
+  }
+
+  footer nav {
+    height: fit-content;
+    margin-bottom: 3rem;
+  }
+
+  .about-containers, .contact-info-upper-container, .btn-container {
+    flex-wrap: wrap;
+  }
+
+  .contact-info-container {
+    margin: 0;
+  }
+
+  .contact-info-container p, .nav-links li a {
+    font-size: 1rem;
+  }
+
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .section.section_pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+
+  .section_text_p2 {
+    font-size: 1.25rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .text-container {
+    text-align: justify;
+  }
+
+  .skills .container {
+    margin: 0;
+    padding: 0;
+  }
+    
+  .skills .container .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 2rem 0.2rem 2rem 0.2rem;
+    gap: 1rem;
+    position: relative;
+  }
+
+  .bar {
+    width: 50%;
+    max-width: 50px;
+    height: 50%;
+    max-height: 50px;
+  }
+
+  .service-box {
+    margin: 0 20px 0 20px;
+  }
+
+  .contact-info-upper-container {
+    margin: 0 20px 0 20px;
+  }
+
+  .contact-info-upper-container {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  #profile {
+    margin-bottom: 100px;
+  }
+
+  .copyright {
+    padding: 40px;
+  }
+
+  .section-container, .pfp{
+    margin: 20px 0 0 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .section-container {
+    height: 100%;
+    max-height: 2000vh;
+  }
+
+  .about-details-container {
+    padding: none;
+    margin: auto;
+  }
+}
+
+
+@media screen and (max-width: 400px){
+  
+
+  .contact-info-upper-container {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 80%;
+  }
+
+  
+  #profile {
+    margin-bottom: 100px;
+  }
+
+
+  .section-container, .pfp{
+    margin: 20px 0 0 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .nav-links-container {
+    margin-top: 40px;
+  }
+
+  #about, #projects {
+    padding: 20px;
+  }
+
+
+  .section-container {
+    height: 100%;
+    max-height: 1200px;
+  }
+
+  .awards-details-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .awards {
+    margin-bottom: 20px;
+  }
+
+  .details img {
+    width: 100%;
+    max-width: 250px;
+    height: 100%;
+    max-height: 250px;
+  }
+
+  .school-link {
+    max-width: 70%;
+  }
+
+  .contact-info-upper-container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/*animations*/
+
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 7ms ease-out, transform 0.5s ease-out;
+  }
+
+  .animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janine Garsota's Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div id="socials-container">
+            <a href="https://www.linkedin.com/in/janine-garsota-csswb-603b80288/" class="socials-link">
+                <i class="fa-brands fa-linkedin icon"></i>
+            </a>
+            <a href="https://github.com/janinegarsota" class="socials-link">
+                <i class="fa-brands fa-github icon"></i>
+            </a>
+            <a href="https://mail.google.com/mail/u/0/?fs=1&to=garsotajanine@gmail.com&tf=cm" class="socials-link">
+                <i class="fa-solid fa-envelope icon"></i>
+            </a>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about2">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo-container"> <img src="./assets/logo siyam (1).png" class="logo"></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        
+            <div class="menu-links">
+                <li><a href="#about2" onclick="toggleMenu()">About</a></li>
+                <li><a href="#education" onclick="togglemenu()">Education</a></li>
+                <li><a href="#skills" onclick="togglemenu()">Skills</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile" class="animate-on-scroll">
+        <div class="nine">
+            <img src="./assets/logo nine white.png" class="nine-img">
+        </div>
+        <div class="section_text">
+            <div class="title">Janine Garsota</div>
+
+            <div class="marquee-container">
+                <div class="marquee">
+                    <div class="marquee-content">
+                        <p class="section_text_p2">
+                              Front-end Web Developer  
+                            <i class="fa-regular fa-moon icon-between"></i>
+                              UI/UX Web Designer  
+                            <i class="fa-regular fa-moon icon-between"></i></p>
+                        <p class="section_text_p2">
+                              Front-end Web Developer  
+                            <i class="fa-regular fa-moon icon-between"></i>
+                              UI/UX Web Designer  
+                            <i class="fa-regular fa-moon icon-between"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-container">
+                <button class="btn2 btn-color-2" onclick="location.href='#'">Visit Portfolio</button>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <section id="about2">
+        <h1 class="title">About Janine</h1>
+        <div class="section-container" class="animate-on-scroll">
+            <div class="section_pic-container">
+                <img src="./assets/pfp.jpg" alt="Janine Garsota" class="pfp animate-on-scroll">
+            </div>
+            
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container animate-on-scroll">
+                        <h2>In the Past...</h2>
+                        <p>I was previously a traditional portrait artist, creative fiction writer, and public speaker, all driven by the passion for sharing art.</p>
+                    </div>
+    
+                    <div class="details-container animate-on-scroll">
+                        <h2>In the Present...</h2>
+                        <p>I am currently a second-year BS Computer Science student familiarizing oneself with Web Development and User Interface while actively volunteering for organizations advocating social issues.</p>
+                    </div>
+    
+                    <div class="details-container animate-on-scroll">
+                        <h2>In the Future...</h2>
+                        <p>I aim to land a remote internship position that will allow me to unleash my creative insights.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="about">
+        <div class="container-exp">
+            <h2 class="experience-sub-title2">my experiences</h2>
+        </div>
+        <div class="awards-section">
+            <div class="awards-details-container">
+                <div class="awards-containers">
+                    <div class="awards">
+                        <div class="grid-cont">
+                            <div class="details animate-on-scroll">
+                                <h2>Headstarter Software Engineering Fellow</h2>
+                                <p>Built 5+ AI projects using openAI, NextJS, and stripe API reaching 1,000 accounts created</p>
+                            </div>
+                            <div class="details animate-on-scroll">
+                                <img src="./assets/headstarter.jpg" alt="Headstarter Fellow" class="award">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="awards">
+                        <div class="grid-cont">
+                            <div class="details animate-on-scroll">
+                                <h2>Lean Six Sigma White Belter</h2>
+                                <p>Learned project management applicable for the technology service industry</p>
+                            </div>
+                            <div class="details animate-on-scroll">
+                                <img src="./assets/sixsigma.jpg" alt="Lean Sigma" class="award">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="awards">
+                        <div class="grid-cont">
+                            <div class="details animate-on-scroll">
+                                <h2>Youth for Youth Leader</h2>
+                                <p>Awarded as an Outstanding Youth Leader, served as a sole Social Media Manager, became the Digital Tayo Secretariat who coordinated with Meta</p>
+                            </div>
+                            <div class="details animate-on-scroll">
+                                <img src="./assets/y4y.jpeg" alt="Youth for Youth Leader" class="award">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="education" id="education">
+        <div class="experience-details-container2">
+            <h2 class="institutions-sub-title">the institutions that shaped me</h2>
+            <div class="about-containers">
+                <div class="services-container2">
+                    <div class="school">
+                        <div class="details-container4 animate-on-scroll">
+                            <img src="./assets/plm.png" alt="PLM Logo" class="school-logo">
+                            <div class="school-details">
+                                <h3><a href="https://plm.edu.ph/about" target="_blank" class="school-link">Pamantasan ng Lungsod ng Maynila </a></h3>
+                                <p>B.S in Computer Science</p>
+                                <p>2023 - Present</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="school">
+                        <div class="details-container4 animate-on-scroll">
+                            <img src="./assets/adamson.png" alt="Adamson Logo" class="school-logo">
+                            <div class="school-details">
+                                <h3><a href="https://www.adamson.edu.ph/v1/?page=about" target="_blank" class="school-link">Adamson University</a></h3>
+                                <p>Senior High School</p>
+                                <p>2021 - 2023</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="school">
+                        <div class="details-container4 animate-on-scroll">
+                            <img src="./assets/holy child.png" alt="Holy Child Logo" class="school-logo">
+                            <div class="school-details">
+                                <h3><a href="https://hccs.edu.ph/pvmc" target="_blank" class="school-link">Holy Child Catholic School</a></h3>
+                                <p>Junior High School</p>
+                                <p>2017 - 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="skills" id="skills">
+        <h1 class="title">Skills</h1>
+        <div class="container animate-on-scroll"">
+            <div class="row" id="skillsContainer">
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets//html.png" class="skills-icon">
+                        <span>HTML</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets//css.png" class="skills-icon">
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets//javascript.png" class="skills-icon">
+                        <span>Javascript</span></div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets//c.png" class="skills-icon">
+                        <span>C</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets//java.png" class="skills-icon">
+                        <span>Java</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets//python.png" class="skills-icon">
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets//git.png" class="skills-icon">
+                        <span>Git</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets//figma.png" class="skills-icon">
+                        <span>Figma</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets//photoshop.png" class="skills-icon">
+                        <span>Photoshop</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets//webflow.png" class="skills-icon">
+                        <span>Webflow</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets//wireframing.png" class="skills-icon">
+                        <span>Wireframe</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets//prototyping.png" class="skills-icon">
+                        <span>Prototype</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container3 animate-on-scroll">
+            <div class="about-containers2">
+                <!-- <div class="details-container3 color-container">
+                    <div class="article-container">
+                        <img src="#" alt="project 1" class="project-img">
+                    </div>
+                    <h3 class="experience-sub-title project-title">Likha: A Social Media App Case Study</h3>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+                            Learn More
+                        </button>
+
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div> -->
+
+                <div class="details-container3 color-container">
+                    <div class="article-container">
+                        <img src="./assets/personal.png" alt="project 2" class="project-img">
+                    </div>
+                    <h3 class="experience-sub-title project-title">Voyage: Personal Website V1.0</h3>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+                            Learn More
+                        </button>
+
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+
+                <div class="details-container3 color-container">
+                    <div class="article-container">
+                        <img src="./assets/stellar.png" alt="project 3" class="project-img">
+                    </div>
+                    <h3 class="experience-sub-title project-title">Stellar Access: Log-in & Sign-up</h3>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+                            Learn More
+                        </button>
+
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+
+                <div class="details-container3 color-container">
+                    <div class="article-container">
+                        <img src="./assets/scene.png" alt="project 1" class="project-img">
+                    </div>
+                    <h3 class="experience-sub-title project-title">Scene O' Ma: Movie Ticket Booking System</h3>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+                            Learn More
+                        </button>
+
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+
+                <div class="details-container3 color-container">
+                    <div class="article-container">
+                        <img src="./assets/student.png" alt="project 1" class="project-img">
+                    </div>
+                    <h4 class="experience-sub-title project-title">Student Database</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+                            Learn More
+                        </button>
+
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <h1 class="title">Testimonials</h1>
+        <div class="experience-details-container4 animate-on-scroll">
+            <div class="about-containers">
+                <div class="services-container">
+                    <div class="service-box">
+                        <div class="service-info">
+                            <h4>"Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa."</h4>
+                            <div class="testimonial-author">
+                                <i class="fa-solid fa-user fa-xl" style="color: #f7f7f7;"></i>
+                                <div>
+                                    <p class="name">Laica Bagnes</p>
+                                    <p class="role">Supervisor</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="service-box">
+                        <div class="service-info">
+                            <h4>"Janine is a <b>reliable and accountable leader who excels in communication and ensures that no one is left behind.</b> Her ability to inspire and guide her team is truly remarkable, consistently setting a high standard. Her commitment to excellence and inclusive leadership make her an invaluable asset to any team. Additionally, she dedicates herself into studying different programming languages to enhance her existing education."</h4>
+                            <div class="testimonial-author">
+                                <i class="fa-solid fa-user fa-xl" style="color: #f7f7f7;"></i>
+                                <div>
+                                    <p class="name">Shawn Goyena</p>
+                                    <p class="role">Co-developer, Collaborator</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="service-box">
+                        <div class="service-info">
+                            <h4>"Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa."</h4>
+                            <div class="testimonial-author">
+                                <i class="fa-solid fa-user fa-xl" style="color: #f7f7f7;"></i>
+                                <div>
+                                    <p class="name">Mae Ann Bardaje</p>
+                                    <p class="role">Former Technology Professor</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h1 class="title">Contact Me</h1>
+        
+        <div class="contact-me">
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <p><a href="mailto:garsotajanine@gmail.com" class="icon2 contact-icon">
+                        <i class="fa-solid fa-envelope mail contact-icon"></i>garsotajanine@gmail.com
+                    </a></p>
+                </div>
+            </div>
+        
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <p><a href="https://www.linkedin.com/in/janine-garsota-csswb-603b80288/" class="icon2 contact-icon">
+                        <i class="fa-brands fa-linkedin linked contact-icon"></i>Janine Garsota
+                    </a></p>
+                </div>
+            </div>
+        
+            <div class="visit">
+                <p class="cta">or you can visit my <a href="#" class="portfolio-site">Portfolio</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about2">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p class="copyright">Copyright &#169; 2024 Janine Garsota. All Rights Reserved.</p>
+    </footer>
+    
+</body>
+</html>
